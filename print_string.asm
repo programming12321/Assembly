@@ -1,5 +1,5 @@
 section .data
-	hello:     db 'Hello, World!',10
+	hello:     db ### here is string ### ,10
 	helloLen:  equ $-hello
 section .text
 	global _start
